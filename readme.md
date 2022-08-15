@@ -1,4 +1,7 @@
 This is a fun project that I've made with python using parquet file to store twitch chat log data on a specific twitch channel.
+###### How It Works in Real Time
+
+![alt text](assets/sample.gif)
 ### Python PyPI : 
 * Pandas
 * Socket
@@ -14,3 +17,4 @@ All notable changes to this project will be documented in this file.
 
 ** **
 ![bage1](https://img.shields.io/github/issues/gregsiregar88/twitch-chat-python)
+
