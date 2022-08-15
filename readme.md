@@ -1,4 +1,4 @@
-This is a fun project that I've made with python using parquet file to store twitch chat log data on a specific twitch channel.
+This is a fun project that I've made with python using parquet file to store twitch chat log data on a specific twitch channel. Feel free to contribute
 ###### How It Works in Real Time
 
 ![alt text](assets/sample.gif)
