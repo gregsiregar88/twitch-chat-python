@@ -8,6 +8,8 @@ import socket
 
 sock = socket.socket()
 
+
+# Styling Terminal Console
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -19,19 +21,30 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-API_ENDPOINT = str("https://id.twitch.tv/oauth2/token")
+
+# This following code is environment variables
+
+# API_ENDPOINT = str("https://id.twitch.tv/oauth2/token")
+
+# Twitch Client Id
 CLIENT_ID = os.getenv("TWITCH_CLIENT_ID")
+# Twitch Client Secret
 CLIENT_SECRET = os.getenv("TWITCH_CLIENT_SECRET")
+
+# 0auth token ( generated using https://twitchapps.com/tmi/ )
 token = os.getenv("OAUTH_SECRET")
+
+# Twitch Username
 nickname = os.getenv("TWITCH_USERNAME")
+
 filename = input("Enter a twitch channel ( i.e xqc ) : ")
+
 channel = "#" + filename
 server = 'irc.chat.twitch.tv'
 port = 6667
 
 directory = Path(__file__).resolve().parent
 state = True
-
 
 while state:
     sock.connect((server, port))
