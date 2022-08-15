@@ -17,5 +17,3 @@ All notable changes to this project will be documented in this file.
 
 ** **
 ![bage1](https://img.shields.io/github/issues/gregsiregar88/twitch-chat-python)
-
-test
